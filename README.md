@@ -17,8 +17,6 @@ The project includes Dockerfiles for both the server and client, along with a `d
 │   ├── Dockerfile
 │   └── kv_server.cpp
 ├── docker-compose.yml
-├── run.sh
-└── test.sh
 ```
 
 ---
