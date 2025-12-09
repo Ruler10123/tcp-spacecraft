@@ -16,7 +16,7 @@ The project includes Dockerfiles for both the server and client, along with a `d
 ├── server/
 │   ├── Dockerfile
 │   └── kv_server.cpp
-├── docker-compose.yml
+└─── docker-compose.yml
 ```
 
 ---
