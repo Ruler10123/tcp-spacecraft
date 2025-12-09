@@ -1,0 +1,14 @@
+services:
+  kv_server:
+    build:
+      context: ./server
+    container_name: kv_server
+    ports:
+      - "5000:5000"
+
+  kv_client:
+    build:
+      context: ./client
+    container_name: kv_client
+    depends_on:
+      - kv_server
