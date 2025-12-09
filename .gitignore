@@ -1,0 +1,33 @@
+# Compiled binaries
+server/kv_server
+client/kv_client
+*.o
+*.out
+*.exe
+
+# Build artifacts
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Docker
+*.tar
+*.img
+*.pid
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary editor files
+*.swp
+*.swo
+*~
